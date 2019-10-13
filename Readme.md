@@ -11,7 +11,7 @@ Analyze picture's color density & distribution.
 
 ### Example 2
 
-![from](https://raw.githubusercontent.com/DragoonKiller/ColorSpaceVis/master/Doc/2-src.png) 
+![from](https://raw.githubusercontent.com/DragoonKiller/ColorSpaceVis/master/Doc/2-src.jpg) 
 
 [This is the source of the picture](https://www.artstation.com/artwork/8zZvO)
 
