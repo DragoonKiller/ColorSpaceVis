@@ -18,8 +18,8 @@ public static class ImageProcessing
     
     public static Texture2D ReadImage(string path)
     {
-        var uri = "file:///" + UnityWebRequest.EscapeURL(path);
-        System.IO.File.WriteAllText("G:/log.txt", uri);
+        var uri = path.Replace("\\", "/");
+        Debug.Log(uri);
         var req = UnityWebRequest.Get(uri);
         
         req.downloadHandler = new DownloadHandlerBuffer();
